@@ -37,6 +37,7 @@ services:
       - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
       - REDIS_URL=redis://redis:6379/0
+      - USE_MOCK_LLM=${USE_MOCK_LLM:-false}
     depends_on:
       - db
       - redis
@@ -54,6 +55,7 @@ services:
       - DEBUG=${DEBUG}
       - SECRET_KEY=${SECRET_KEY}
       - REDIS_URL=redis://redis:6379/0
+      - USE_MOCK_LLM=${USE_MOCK_LLM:-false}
     depends_on:
       - db
       - redis
