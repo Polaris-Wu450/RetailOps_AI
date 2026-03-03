@@ -2,7 +2,7 @@
 
 ## 1. Background
 
-RetailOps AI is a production-ready B2B platform designed for large-scale retail operations (inspired by challenges at major furniture and pharmacy retailers).
+RetailOps AI is a production-ready B2B platform designed for large-scale retail operations.
 
 - **Customer**: Regional Managers and Operations Teams.
 - **Problem**: Manual processing of customer feedback, identifying category-specific issues (e.g., sofas, beds), and creating actionable improvement plans takes 20-40 minutes per entry. High volumes lead to backlogs and missed SLAs.
